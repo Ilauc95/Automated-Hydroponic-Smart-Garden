@@ -1,0 +1,54 @@
+mat-card-header{
+  border-bottom:1px solid #3333;
+}
+.mat{
+  padding: 20px;
+}
+
+.iki{
+  z-index: 0;
+}
+
+.example-header-image{
+  background-image: url("https://i.ytimg.com/vi/RzGKAqEC2hg/maxresdefault.jpg");
+  background-size: cover;
+}
+.avatar{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWqwyx30ZAfPsLwi4mfq6rkL7B8HZhNBVC9nnr5557Pmcnzx3YjQ");
+  background-size: cover;
+}
+
+.ph{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjArnc3hSXXQ2Ord0MNIJd79dC0qIIbzr0t3a0t3UIhXqZPhpZoA");
+  background-size: cover;
+}
+
+.vent{
+  background-image: url("https://www.itecluchtreiniger.nl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/stadler-form-charly-little-fan.png");
+  background-size: cover;
+}
+
+.two{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.off{
+  background-image: url("http://www.programwitherik.com/content/images/2015/07/light.jpg");
+  background-size: cover;
+}
+
+.on{
+  background-image: url("https://secure.i.telegraph.co.uk/multimedia/archive/01783/Incandescent_light_1783785b.jpg");
+  background-size: cover;
+}
+
+.mat-slider{
+  width: 50%;
+}
+@media screen and (max-width: 500px){
+.iki{
+  position: relative;
+  z-index: 0;
+}
+}

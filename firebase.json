@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": "dist/garden-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api",
+        "function": "garden"
+      },
+      {
+        "source": "/api/vent-up",
+        "function": "gardenVentUp"
+      },
+      {
+        "source": "/api/vent-down",
+        "function": "gardenVentDown"
+      },
+      {
+        "source": "/api/ph-up",
+        "function": "gardenPhUp"
+      },
+      {
+        "source": "/api/ph-down",
+        "function": "gardenPhDown"
+      },
+      {
+        "source": "/api/light",
+        "function": "gardenLight"
+      },
+      {
+        "source": "/api/heater",
+        "function": "gardenHeater"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+
+}

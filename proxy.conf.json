@@ -1,0 +1,6 @@
+{
+  "/garden-app-e0ea1": {
+    "target": "http://localhost:5000",
+    "secure": false
+  }
+}

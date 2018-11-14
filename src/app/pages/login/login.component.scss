@@ -1,0 +1,22 @@
+.col-8{
+  img{
+    height: 300px;
+    width:  500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.txtdiv{
+  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+  h1 {
+    font-size: 26px;
+  }
+}
+
+.show-s{
+  display: none;
+}
+

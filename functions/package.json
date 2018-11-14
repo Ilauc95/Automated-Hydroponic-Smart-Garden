@@ -1,0 +1,14 @@
+{
+  "name": "garden-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "firebase serve --only functions"
+  },
+  "dependencies": {
+    "firebase": "5.0.3",
+    "firebase-admin": "5.12.1",
+    "firebase-functions": "1.0.2",
+    "request": "2.87.0"
+  }
+}
